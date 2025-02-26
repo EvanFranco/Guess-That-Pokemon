@@ -1,38 +1,31 @@
 .App {
-  text-align: center;
+  border: 2px solid #000; /* Black border with 2px width */
+  padding: 20px; /* Space inside the border */
+  width: 300px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the square in the middle of the page */
+  text-align: center; /* Center text inside */
+  transition: all 0.3s ease-in-out; /* Smooth transition for changes like size, color, or opacity */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pokemon-container {
+  padding: 20px; /* Space inside the container */
+  width: 200px; /* Adjust width as needed */
+  margin: 20px auto; /* Center align in the parent container */
+  text-align: center; /* Align text and image centrally */
+  transition: opacity 1s ease-in-out; /* Smooth fade-in transition for Pokémon */
+  opacity: 0; /* Initially invisible to allow fade-in effect */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pokemon-container.visible {
+  opacity: 1; /* Make it visible once Pokémon is loaded */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.guess-area {
+  padding: 20px; /* Space inside the guessing area */
+  margin-top: 20px; /* Add spacing above */
+  text-align: center; /* Center input and button */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  background-color: #f0f0f0; /* Light background for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth effect on hover or change */
 }

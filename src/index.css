@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Optional global styles to center the content */
+.App {
+  text-align: center; /* Ensures all text inside .App is centered */
+  font-family: Arial, sans-serif; /* Sets a clean, readable font */
+  margin: 20px; /* Adds spacing around the main container */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2 {
+  font-size: 2rem; /* Sets a consistent font size for headings */
+  color: #333; /* Dark gray color for better readability */
+}
+
+h2 {
+  margin-top: 20px; /* Adds spacing above h2 for better layout */
+}
+
+input {
+  font-size: 1rem; /* Sets a readable font size for input text */
+  padding: 8px; /* Adds space inside the input for better usability */
+  margin: 10px; /* Adds spacing around the input */
+  width: 250px; /* Sets a fixed width for consistent input field size */
+  text-align: center; /* Centers user input text inside the field */
 }
