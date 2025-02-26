@@ -1,5 +1,5 @@
 # Guess that pokemon
-A React App that pokemon game using PokiAPI to get images and names for pokemon
+A React App that pokemon guessing game created by Evan Franco using PokiAPI to get images and names for pokemon
 
 
 To get started clone repo
